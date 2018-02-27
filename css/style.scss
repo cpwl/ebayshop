@@ -3,11 +3,9 @@
     font-family: franklingothic;
     src: url(../fonts/franklingothicheavyregular.ttf);
 }
-body{
-	margin: 0;
+body{margin: 0;}
 
 
-}
 #Wrapper {
 	width: 800px;
 	margin-left: auto;
@@ -49,7 +47,6 @@ body{
 	text-decoration:none;
 }
     
-    
 #Banner {
     width:100%;
     height:240px;
@@ -62,8 +59,7 @@ body{
     
     
 }
-   
-    
+  
 #Header {
 	margin: 0;
 	padding: 0;
@@ -74,13 +70,16 @@ body{
 	background-size: cover;
 	background-repeat: repeat-x;
 }
+
 #HeaderLogo {
 	padding: 90px 5px 0px 160px;
 	
 }
+
 #HeaderMenu {
 	margin: 0px;
 }
+
 #HeaderMenu ul.navi{
 	padding: 0px;
 	margin: 0px 0px 0px 0px;
@@ -88,11 +87,13 @@ body{
 	text-align: center;
 	position: relative;
 }
+
 #HeaderMenu ul.navi li{
 	padding: 0 10px 0 10px;
 	margin: 0px;
 	display: inline;
 }
+
 #HeaderMenu ul.navi li a{
 	padding: 0px 8px 0px 8px;
 	font: 18px arial, Helvetica, sans-serif;
@@ -105,6 +106,7 @@ body{
 	letter-spacing: -1px;
 	line-height: 30px;
 }
+
 #HeaderMenu ul.navi li a:hover{
 	color: #FFFF99;
 }
@@ -117,31 +119,37 @@ body{
 #ContentsSub {
 	padding: 20px 40px 0px 40px;
 }
+
 #Footer {
 	width: 800px;
 	height: 240px;
-	background-image:url('../img/wrapper/Footer.jpg');
+	// background-image:url('../img/wrapper/Footer.jpg');
     background-repeat: no-repeat;
 }
+
 #FooterLink {
 	width: 800px;
 	background-image:url('');
 	height: 100px;
 }
+
 #BoxContents {
 	padding: 0px 80px 0px 80px;
 	margin: 0px;
 }
+
 #BoxContents p {
 	padding: 0px 0px 10px 0px;
 	margin: 0px;
 	line-height: 20px;
 }
+
 #BoxContents ul {
 	padding: 0px 0px 0px 28px;
 	margin: 0px;
 	list-style-type: disc;
 }
+
 #BoxContents li {
 	line-height: 20px;
 }
@@ -149,76 +157,82 @@ body{
 #Payment {
 	width: 800px;
 }
+
 #PaymentTop {
 	width: 800px;
 	height: 83px;
 	background-image:url('../img/wrapper/PaymentPolicyTop.jpg');
 }
+
 #PaymentContents {
-	width: 800px;
-	
+	width: 800px;	
 }
+
 #PaymentBottom {
 	width: 800px;
-	height: 53px;
-	
+	height: 53px;	
 }
 
 #Shipping {
 	width: 800px;
 }
+
 #ShippingTop {
 	width: 800px;
 	height: 83px;
 	background-image: url('../img/wrapper/ShippingPolicyTop.jpg');
 }
+
 #ShippingContents {
 	width: 800px;
 	
 }
+
 #ShippingBottom {
 	width: 800px;
-	height: 53px;
-	
+	height: 53px;	
 }
 
 #Contacts {
 	width: 800px;
 }
+
 #ContactsTop {
 	width: 800px;
 	height: 83px;
 	background-image:url('../img/wrapper/ContactsTop.jpg');
 }
+
 #ContactsContents {
-	width: 800px;
-	
+	width: 800px;	
 }
+
 #ContactsBottom {
 	width: 800px;
 	height: 53px;
-
 }
 
 #Returns {
 	width: 800px;
 }
+
 #ReturnsTop {
 	width: 800px;
 	height: 83px;
 	background-image:url('../img/wrapper/ReturnsTop.jpg');
 }
+
 #ReturnsContents {
 	width: 800px;
 	
 }
+
 #ReturnsBottom {
 	width: 800px;
 	height: 53px;
 	
 }
-/* HTML5 ELEMENTS */
-/* sub images > thumbnail list */
+
 ul#Thumbs, ul#Thumbs li {
 	margin: 0;
 	padding: 0;
