@@ -1,456 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title></title>
-	<link rel="stylesheet" href="css/style.css">
-</head>
+<br>
 
-<script>
-	document.title = document.getElementById("ProductName").innerHTML;
-</script>
-<body>
-	
-</body>
-</html>
+<link rel="stylesheet" type="text/css" media="all" href="https://cdn.rawgit.com/cpwl/ebayshop/3cd929af/css/style.css" />
+
 <body>
 
-<style>
-@font-face {
-  font-family: franklingothic;
-  src: url(../fonts/franklingothicheavyregular.ttf);
-}
-
-#Wrapper {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: arial;
-  font-size: 12px;
-}
-
-#Wrapper p {
-  font-family: arial;
-  text-align: justify;
-  text-justify: auto;
-  margin: 0px;
-  padding: 0px 0px 15px 0px;
-  line-height: 20px;
-}
-
-#Wrapper h1 {
-  padding: 5px 0px 10px 0px;
-  margin: 0px;
-  font-family: franklingothic;
-  font-size: 26px;
-  font-weight: bold;
-  font-style: normal;
-  letter-spacing: -1px;
-  color: #5e5e5e;
-  text-align: left;
-  text-transform: uppercase;
-}
-
-#Wrapper a {
-  font-weight: bold;
-  text-decoration: underline;
-  color: #000000;
-}
-
-#Wrapper a:hover {
-  text-decoration: none;
-}
-
-#Banner {
-  width: 100%;
-  height: 240px;
-}
-
-#ShopLinkBanner {
-  width: 800px;
-  height: 84px;
-}
-
-#Header {
-  margin: 0;
-  padding: 0;
-  border-top: 24px solid #5e5e5e;
-  width: 100%;
-  height: 118px;
-  background-image: url("../img/header/body-bgconcrete.jpg");
-  background-size: cover;
-  background-repeat: repeat-x;
-}
-
-#HeaderLogo {
-  padding: 90px 5px 0px 160px;
-}
-
-#HeaderMenu {
-  margin: 0px;
-}
-
-#HeaderMenu ul.navi {
-  padding: 0px;
-  margin: 0px 0px 0px 0px;
-  width: 800px;
-  text-align: center;
-  position: relative;
-}
-
-#HeaderMenu ul.navi li {
-  padding: 0 10px 0 10px;
-  margin: 0px;
-  display: inline;
-}
-
-#HeaderMenu ul.navi li a {
-  padding: 0px 8px 0px 8px;
-  font: 18px arial, Helvetica, sans-serif;
-  color: #FFFFFF;
-  text-decoration: none;
-  text-indent: 0px;
-  font-weight: bold;
-  margin: 0;
-  width: inherit;
-  letter-spacing: -1px;
-  line-height: 30px;
-}
-
-#HeaderMenu ul.navi li a:hover {
-  color: #FFFF99;
-}
-
-#ContentsWrapper {
-  width: 800px;
-}
-
-#ContentsSub {
-  padding: 20px 40px 0px 40px;
-}
-
-#Footer {
-  width: 800px;
-  height: 240px;
-  background-repeat: no-repeat;
-}
-
-#FooterLink {
-  width: 800px;
-  background-image: url("");
-  height: 100px;
-}
-
-#BoxContents {
-  padding: 0px 80px 0px 80px;
-  margin: 0px;
-}
-
-#BoxContents p {
-  padding: 0px 0px 10px 0px;
-  margin: 0px;
-  line-height: 20px;
-}
-
-#BoxContents ul {
-  padding: 0px 0px 0px 28px;
-  margin: 0px;
-  list-style-type: disc;
-}
-
-#BoxContents li {
-  line-height: 20px;
-}
-
-#Payment {
-  width: 800px;
-}
-
-#PaymentTop {
-  width: 800px;
-  height: 83px;
-  background-image: url("../img/wrapper/PaymentPolicyTop.jpg");
-}
-
-#PaymentContents {
-  width: 800px;
-}
-
-#PaymentBottom {
-  width: 800px;
-  height: 53px;
-}
-
-#Shipping {
-  width: 800px;
-}
-
-#ShippingTop {
-  width: 800px;
-  height: 83px;
-  background-image: url("../img/wrapper/ShippingPolicyTop.jpg");
-}
-
-#ShippingContents {
-  width: 800px;
-}
-
-#ShippingBottom {
-  width: 800px;
-  height: 53px;
-}
-
-#Contacts {
-  width: 800px;
-}
-
-#ContactsTop {
-  width: 800px;
-  height: 83px;
-  background-image: url("../img/wrapper/ContactsTop.jpg");
-}
-
-#ContactsContents {
-  width: 800px;
-}
-
-#ContactsBottom {
-  width: 800px;
-  height: 53px;
-}
-
-#Returns {
-  width: 800px;
-}
-
-#ReturnsTop {
-  width: 800px;
-  height: 83px;
-  background-image: url("../img/wrapper/ReturnsTop.jpg");
-}
-
-#ReturnsContents {
-  width: 800px;
-}
-
-#ReturnsBottom {
-  width: 800px;
-  height: 53px;
-}
-
-ul#Thumbs, ul#Thumbs li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-ul#Thumbs li {
-  float: left;
-  background: #ffffff;
-  border: 1px solid #cccccc;
-  margin: 0px 0px 10px 10px;
-  padding: 8px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-}
-
-ul#Thumbs a {
-  float: left;
-  display: block;
-  width: 150px;
-  height: 150px;
-  line-height: 100px;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-}
-
-ul#Thumbs a img {
-  float: left;
-  width: 100%;
-  height: 100%;
-  border: 0px;
-}
-
-/* sub images > mouse over */
-ul#Thumbs a:hover {
-  overflow: visible;
-  z-index: 1000;
-  border: none;
-}
-
-ul#Thumbs a:hover img {
-  background: #ffffff;
-  border: 1px solid #cccccc;
-  padding: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 200;
-  height: 200;
-}
-
-/* sub images > clearing floats */
-ul#Thumbs:after, li#Thumbs:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-ul#Thumbs, li#Thumbs {
-  display: block;
-}
-
-ul#Thumbs, li#Thumbs {
-  min-height: 1%;
-}
-
-* html ul#Thumbs, * html li#Thumbs {
-  height: 1%;
-}
-/*# sourceMappingURL=style.css.map */
-
-
-
-</style>
-
-
-
-
-
-
-
-<div id="Header">
-	<div id="HeaderLogo">
-		<img src('img\wrapper\Banner.jpg')>
-	</div>
-</div>
-
-
-<div id="Wrapper">
-
-	<div id="ContentsWrapper">
-           
-		<div id="Contents">
-
-			<div id="ContentsSub">
-				<h1 id="ProductName">Harrington 7.5kva/6kw Honda Gx390 Petrol Generator</h1>
-				<p>
-                    
-					Fuel: Petrol <br>
-					Starter: Recoil <br>
-					Kva: 7.5 <br>
-					Kw: 6000 <br>
-					Voltage/output: 110v <br>
-					Rated Frequency: 50Hz <br>
-					Fuel Tank Capacity: 7 ltrs <br>
-					Running Time: 2.72 hrs <br>
-					Noise Value: 72dB(A) @7M <br>
-					Dimensions: L685mm x W520mm x H540mm <br>
-					Weight: 80.0Kg <br>
-					Engine: Honda GX390 <br>
-					Alternator: Mecc Alte <br>
-					Sockets: 2 x 16 amp 110v, 1 x 32 amp 110v  <br>
-					Made in UK <br>
-        
-                </p>
-				<br />
-				<br />
-				<h2>Browse our other items:</h2>
-				
-				<ul id="Thumbs">
-					<li><a href="#"><img src="img/products/Motor.jpeg" /></a></li>
-					<li><a href="#"><img src="img/products/disc.jpg" /></a></li>
-					<li><a href="#"><img src="img/products/dowel.jpg" /></a></li>
-					<li><a href="#"><img src="img/products/geny.jpg" /></a></li>
-				</ul>
-				
-			</div>
-            <br>
-            
-            
-            
-            
-            
-			<div id="Payment">
-				<div id="PaymentTop"></div>
-				<div id="PaymentContents">
-					<div id="BoxContents">
-						<p>
-                            We accept <b>Paypal</b> as our preferred payment option.
-                        </p>
-                        
-						<p>
-                            If you are unable to pay for a purchase immediately, please contact us using the contact info provided below.
-                        </p>
-					</div>
-				</div>
-				<div id="PaymentBottom"></div>
-			</div>
-            
-            
-            
-            
-			
-			<div id="Shipping">
-				<div id="ShippingTop"></div>
-				<div id="ShippingContents">
-					<div id="BoxContents">
-						<p>
-
-						</p>
-					</div>
-				</div>
-				<div id="ShippingBottom"></div>
-			</div>
-            
-            
-            
-            
-            
-            <div id="Returns">
-				<div id="ReturnsTop"></div>
-				<div id="ReturnsContents">
-					<div id="BoxContents">
-						<p>
-
-						</p>
-					</div>
-				</div>
-				<div id="ReturnsBottom"></div>
-			</div>	
-            
-            
-            
-            
-            
-			<div id="Contacts">
-				<div id="ContactsTop"></div>
-				<div id="ContactsContents">
-					<div id="BoxContents">
-						<p>
-
-						</p>
-						</ul>
-					</div>
-				</div>
-				<div id="ContactsBottom"></div>
-			</div>
-			
-					
-		
+	<div id="Header">
+		<div id="HeaderLogo">
+			<img src( 'img\wrapper\Banner.jpg')>
 		</div>
 	</div>
 
-     <div id="ShopLinkBanner">
 
-	 </div>
-</div>
+	<div id="Wrapper">
+
+		<div id="ContentsWrapper">
+
+			<div id="Contents">
+
+				<div id="ContentsSub">
+					<h1 id="ProductName">Harrington 7.5kva/6kw Honda Gx390 Petrol Generator</h1>
+					<p>
+
+						Fuel: Petrol
+						<br> Starter: Recoil
+						<br> Kva: 7.5
+						<br> Kw: 6000
+						<br> Voltage/output: 110v
+						<br> Rated Frequency: 50Hz
+						<br> Fuel Tank Capacity: 7 ltrs
+						<br> Running Time: 2.72 hrs
+						<br> Noise Value: 72dB(A) @7M
+						<br> Dimensions: L685mm x W520mm x H540mm
+						<br> Weight: 80.0Kg
+						<br> Engine: Honda GX390
+						<br> Alternator: Mecc Alte
+						<br> Sockets: 2 x 16 amp 110v, 1 x 32 amp 110v
+						<br> Made in UK
+						<br>
+
+					</p>
+					<br />
+					<br />
+					<h2>Browse our other items:</h2>
+
+					<ul id="Thumbs">
+						<li>
+							<a href="#">
+								<img src="img/products/Motor.jpeg" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/products/disc.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/products/dowel.jpg" />
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/products/geny.jpg" />
+							</a>
+						</li>
+					</ul>
+
+				</div>
+				<br>
+
+
+
+
+
+				<div id="Payment">
+					<div id="PaymentTop"></div>
+					<div id="PaymentContents">
+						<div id="BoxContents">
+							<p>
+								We accept
+								<b>Paypal</b>
+								as our preferred payment option.
+							</p>
+
+							<p>
+								If you are unable to pay for a purchase immediately,
+								 please contact us using the contact info provided below.
+							</p>
+						</div>
+					</div>
+					<div id="PaymentBottom"></div>
+				</div>
+
+
+
+
+
+				<div id="Shipping">
+					<div id="ShippingTop"></div>
+					<div id="ShippingContents">
+						<div id="BoxContents">
+							<p>
+
+							</p>
+						</div>
+					</div>
+					<div id="ShippingBottom"></div>
+				</div>
+
+
+
+
+
+				<div id="Returns">
+					<div id="ReturnsTop"></div>
+					<div id="ReturnsContents">
+						<div id="BoxContents">
+							<p>
+
+							</p>
+						</div>
+					</div>
+					<div id="ReturnsBottom"></div>
+				</div>
+
+
+
+
+
+				<div id="Contacts">
+					<div id="ContactsTop"></div>
+					<div id="ContactsContents">
+						<div id="BoxContents">
+							<p>
+
+							</p>
+							</ul>
+						</div>
+					</div>
+					<div id="ContactsBottom"></div>
+				</div>
+
+
+
+			</div>
+		</div>
+
+		<div id="ShopLinkBanner">
+
+		</div>
+	</div>
 </body>
+
 </html>

@@ -3,6 +3,56 @@
   src: url(../fonts/franklingothicheavyregular.ttf);
 }
 
+#Header {
+  margin: 0;
+  padding: 0;
+  border-top: 24px solid #5e5e5e;
+  width: 100%;
+  height: 118px;
+  background-image: url("../img/header/body-bgconcrete.jpg");
+  background-size: cover;
+  background-repeat: repeat-x;
+}
+
+#Header #HeaderLogo {
+  padding: 90px 5px 0px 160px;
+}
+
+#Header #HeaderMenu {
+  margin: 0px;
+}
+
+#Header #HeaderMenu ul.navi {
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  width: 800px;
+  text-align: center;
+  position: relative;
+}
+
+#Header #HeaderMenu ul.navi li {
+  padding: 0 10px 0 10px;
+  margin: 0px;
+  display: inline;
+}
+
+#Header #HeaderMenu ul.navi li a {
+  padding: 0px 8px 0px 8px;
+  font: 18px franklingothic, sans-serif;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-indent: 0px;
+  font-weight: bold;
+  margin: 0;
+  width: inherit;
+  letter-spacing: -1px;
+  line-height: 30px;
+}
+
+#Header #HeaderMenu ul.navi li a :hover {
+  color: #FFFF99;
+}
+
 #Wrapper {
   width: 800px;
   margin-left: auto;
@@ -23,7 +73,7 @@
 #Wrapper h1 {
   padding: 5px 0px 10px 0px;
   margin: 0px;
-  font-family: franklingothic;
+  font-family: franklingothic, sans-serif;
   font-size: 26px;
   font-weight: bold;
   font-style: normal;
@@ -51,56 +101,6 @@
 #ShopLinkBanner {
   width: 800px;
   height: 84px;
-}
-
-#Header {
-  margin: 0;
-  padding: 0;
-  border-top: 24px solid #5e5e5e;
-  width: 100%;
-  height: 118px;
-  background-image: url("../img/header/body-bgconcrete.jpg");
-  background-size: cover;
-  background-repeat: repeat-x;
-}
-
-#HeaderLogo {
-  padding: 90px 5px 0px 160px;
-}
-
-#HeaderMenu {
-  margin: 0px;
-}
-
-#HeaderMenu ul.navi {
-  padding: 0px;
-  margin: 0px 0px 0px 0px;
-  width: 800px;
-  text-align: center;
-  position: relative;
-}
-
-#HeaderMenu ul.navi li {
-  padding: 0 10px 0 10px;
-  margin: 0px;
-  display: inline;
-}
-
-#HeaderMenu ul.navi li a {
-  padding: 0px 8px 0px 8px;
-  font: 18px arial, Helvetica, sans-serif;
-  color: #FFFFFF;
-  text-decoration: none;
-  text-indent: 0px;
-  font-weight: bold;
-  margin: 0;
-  width: inherit;
-  letter-spacing: -1px;
-  line-height: 30px;
-}
-
-#HeaderMenu ul.navi li a:hover {
-  color: #FFFF99;
 }
 
 #ContentsWrapper {
@@ -220,13 +220,16 @@
   height: 53px;
 }
 
-ul#Thumbs, ul#Thumbs li {
+ul#Thumbs {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 ul#Thumbs li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   float: left;
   background: #ffffff;
   border: 1px solid #cccccc;
@@ -254,7 +257,6 @@ ul#Thumbs a img {
   border: 0px;
 }
 
-/* sub images > mouse over */
 ul#Thumbs a:hover {
   overflow: visible;
   z-index: 1000;
@@ -274,8 +276,17 @@ ul#Thumbs a:hover img {
   height: 200;
 }
 
+ul#Thumbs:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* sub images > mouse over */
 /* sub images > clearing floats */
-ul#Thumbs:after, li#Thumbs:after {
+li#Thumbs:after {
   content: ".";
   display: block;
   height: 0;
@@ -294,4 +305,7 @@ ul#Thumbs, li#Thumbs {
 * html ul#Thumbs, * html li#Thumbs {
   height: 1%;
 }
+
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
