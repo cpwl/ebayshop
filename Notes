@@ -3,3 +3,10 @@ Use:
 https://rawgit.com/cpwl/ebayshop/master/
 
 for rawgit file hosting
+
+@font-face {
+  font-family: franklingothic;
+  src: url(../fonts/franklingothicheavyregular.ttf);
+}
+
+Refina logo blue: #3a73ba
