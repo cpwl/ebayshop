@@ -78,6 +78,10 @@ body {
   padding: 0px;
 }
 
+.main h2 {
+  color: #616161;
+}
+
 .main > * {
   padding-left: 20px;
 }
